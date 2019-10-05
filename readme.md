@@ -1,4 +1,4 @@
-# https://ntq1982.github.io
+# ntq1982.github.io
 
 My Research Profile
 
