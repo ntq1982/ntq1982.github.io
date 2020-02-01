@@ -37,7 +37,8 @@ b, strong {
 }
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
+/*	text-decoration: underline; */
 	font-weight: normal;
 	font-style: normal;
 	color: #ffffff;
