@@ -6,7 +6,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-size: 100%;
-	background: #ffffff;
+	background: #000000;
 }
 
 #mainContainer {
@@ -39,7 +39,7 @@ a {
 	text-decoration: underline;
 	font-weight: normal;
 	font-style: normal;
-	color: #999999;
+	color: #ffffff;
 }
 
 a:hover {
@@ -571,7 +571,8 @@ ol.lower-roman {
 .blog-entry-summary {
 	margin-bottom: 15px;
 }
-.blog-archive-headings-wrapper {
+
+.blog-archive-headings-wrapper {
 	border-bottom: 1px solid;
 }
 
@@ -579,13 +580,17 @@ ol.lower-roman {
 }
 
 .blog-archive-entries-wrapper .blog-entry {
-}.blog-archive-month {
+}
+
+.blog-archive-month {
 	font-size: 2.2em;
 	letter-spacing: -1px;
 }
 
 .blog-archive-link {
-}.blog-archive-link a:link, .blog-archive-link a:visited {
+}
+
+.blog-archive-link a:link, .blog-archive-link a:visited {
 }
 
 ul.blog-tag-cloud {
@@ -1125,9 +1130,13 @@ p.exif-user-comment {
 /* Quicktime Album Movie Thumbnail view */
 .movie-page-title {
 	font-weight: bold;
-}.movie-page-description {
+}
+
+.movie-page-description {
 	padding-bottom: 15px;
-}.movie-thumbnail-frame {
+}
+
+.movie-thumbnail-frame {
 	width: 132px;
 	height: 132px;
 	float: left;
