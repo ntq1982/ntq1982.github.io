@@ -2,6 +2,8 @@
 /* A RapidWeaver theme by Will Woodgate */
 /* Visit www.themeflood.com for details */
 
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -343,7 +345,7 @@ ol.lower-roman {
 	padding: 0;
 	margin: 0;
 	color: #999;
-	font: 85%/1.50em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 85%/1.50em Lato, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 /* @end */
@@ -357,7 +359,7 @@ ol.lower-roman {
 	margin: 0;
 	padding: 0;
 	color: #999;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: Lato, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	line-height: 1.25em;
 }
 
@@ -392,7 +394,7 @@ ol.lower-roman {
 	margin: 0 0 20px;
 	background-color: transparent;
 	color: #999;
-	font: 80%/1.25em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 80%/1.25em Lato, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 #footer a {
@@ -551,13 +553,13 @@ ol.lower-roman {
 	text-align: left;
 	padding-bottom: 20px;
 	color: #999;
-	font: 85%/1.50em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 85%/1.50em Lato, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 #sidebarContainer .sideHeader {
 	text-align: left;
 	color: #999;
-	font: bold 90%/1.50em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: bold 90%/1.50em Lato, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	text-decoration: none;
 }
 
