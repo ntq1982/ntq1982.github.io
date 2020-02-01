@@ -287,7 +287,7 @@ ol.lower-roman {
 	padding: 3px 15px;
 	margin: 0;
 	border-left: 1px solid #999999;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.25em Palatino, "Times New Roman", Times, serif;
 	color: #999;
 }
 
@@ -424,7 +424,7 @@ ol.lower-roman {
 	width: 100%;
 	margin: 0;
 	padding: 0 0 20px;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.25em Palatino, "Times New Roman", Times, serif;
 	color: #999;
 }
 
@@ -486,7 +486,7 @@ ol.lower-roman {
 	display: none;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.25em Palatino, "Times New Roman", Times, serif;
 	color: #999;
 }
 
@@ -498,7 +498,7 @@ ol.lower-roman {
 	font-style: normal;
 	padding: 5px 0;
 	margin: 0 0 2px;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.25em Palatino, "Times New Roman", Times, serif;
 	color: #999;
 }
 
@@ -508,7 +508,7 @@ ol.lower-roman {
 	display: block;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.25em Palatino, "Times New Roman", Times, serif;
 	color: #999;
 	padding: 5px 15px;
 }
@@ -519,7 +519,7 @@ ol.lower-roman {
 	display: block;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.25em Palatino, "Times New Roman", Times, serif;
 	color: #999;
 	padding: 5px 30px;
 }
@@ -530,7 +530,7 @@ ol.lower-roman {
 	display: block;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.25em Palatino, "Times New Roman", Times, serif;
 	color: #999;
 	padding: 0 45px;
 }
