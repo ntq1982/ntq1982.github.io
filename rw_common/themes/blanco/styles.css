@@ -2,7 +2,7 @@
 /* A RapidWeaver theme by Will Woodgate */
 /* Visit www.themeflood.com for details */
 
-@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato|Open+Sans&display=swap');
 
 body {
 	margin: 0px;
@@ -229,7 +229,7 @@ ol.lower-roman {
 	background: transparent;
 	margin: 0;
 	padding: 0;
-	font: 1.50em/1.00em Georgia, "Times New Roman", Times, serif;
+	font: 1.50em/1.00em "Oswald", sans-serif;
 	color: #6699cc;
 }
 
@@ -255,7 +255,7 @@ ol.lower-roman {
 	font-weight: normal;
 	position: relative;
 	height: auto;
-	font: 1.50em/1.00em Georgia, "Times New Roman", Times, serif;
+	font: 1.50em/1.00em "Oswald", sans-serif;
 	color: #6699cc;
 }
 
