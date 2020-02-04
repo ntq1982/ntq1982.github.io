@@ -2,7 +2,7 @@
 /* A RapidWeaver theme by Will Woodgate */
 /* Visit www.themeflood.com for details */
 
-@import url('https://fonts.googleapis.com/css?family=Prata|Oswald|Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Oswald|Lato&display=swap');
 
 body {
 	margin: 0px;
@@ -229,7 +229,7 @@ ol.lower-roman {
 	background: transparent;
 	margin: 0;
 	padding: 0;
-	font: 1.50em/1.00em "Prata", serif;
+	font: 1.50em/1.00em "Quicksand", sans-serif;
 	color: #6699cc;
 }
 
@@ -255,7 +255,7 @@ ol.lower-roman {
 	font-weight: normal;
 	position: relative;
 	height: auto;
-	font: 1.50em/1.00em "Prata", serif;
+	font: 1.50em/1.00em "Quicksand", serif;
 	color: #6699cc;
 }
 
@@ -938,7 +938,7 @@ p.blog-entry-tags {
 
 .photo-caption {
 	margin: 0;
-	font: italic normal 1em "Prata", serif;
+	font: italic normal 1em "Oswald", sans-serif;
 }
 
 .exif-data {
