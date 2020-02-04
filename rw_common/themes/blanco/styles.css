@@ -2,7 +2,7 @@
 /* A RapidWeaver theme by Will Woodgate */
 /* Visit www.themeflood.com for details */
 
-@import url('https://fonts.googleapis.com/css?family=Oswald|Lato|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Prata|Oswald|Lato&display=swap');
 
 body {
 	margin: 0px;
@@ -55,7 +55,7 @@ a:hover {
 /*	color: #000; */
 }
 
-blockquote, .standout { 
+blockquote, .standout {
 	padding: 10px;
 	margin: 0px;
 }
@@ -80,7 +80,7 @@ em {
 	font-style: italic;
 }
 
-ins {	
+ins {
 }
 
 q {
@@ -229,7 +229,7 @@ ol.lower-roman {
 	background: transparent;
 	margin: 0;
 	padding: 0;
-	font: 1.50em/1.00em "Oswald", sans-serif;
+	font: 1.50em/1.00em "Prata", serif;
 	color: #6699cc;
 }
 
@@ -255,7 +255,7 @@ ol.lower-roman {
 	font-weight: normal;
 	position: relative;
 	height: auto;
-	font: 1.50em/1.00em "Oswald", sans-serif;
+	font: 1.50em/1.00em "Prata", serif;
 	color: #6699cc;
 }
 
@@ -289,7 +289,7 @@ ol.lower-roman {
 	padding: 3px 15px;
 	margin: 0;
 	border-left: 1px solid #999999;
-	font: 95%/1.00em "Open Sans", sans-serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 }
 
@@ -387,7 +387,7 @@ ol.lower-roman {
 
 /* @group Footer */
 
-#footer {	
+#footer {
 	text-align: left;
 	padding-top: 20px;
 	border-top: 1px solid #ccc;
@@ -427,7 +427,7 @@ ol.lower-roman {
 	width: 100%;
 	margin: 0;
 	padding: 0 0 20px;
-	font: 95%/1.00em "Open Sans", sans-serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 }
 
@@ -490,7 +490,7 @@ ol.lower-roman {
 	display: none;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em "Open Sans", sans-serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 }
 
@@ -502,7 +502,7 @@ ol.lower-roman {
 	font-style: normal;
 	padding: 5px 0;
 	margin: 0 0 2px;
-	font: 95%/1.00em "Open Sans", sans-serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 }
 
@@ -512,7 +512,7 @@ ol.lower-roman {
 	display: block;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em "Open Sans", sans-serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 	padding: 5px 15px;
 }
@@ -523,7 +523,7 @@ ol.lower-roman {
 	display: block;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em "Open Sans", sans-serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 	padding: 5px 30px;
 }
@@ -534,7 +534,7 @@ ol.lower-roman {
 	display: block;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em "Open Sans", sans-serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 	padding: 0 45px;
 }
@@ -614,51 +614,51 @@ ul.blog-tag-cloud li {
 	padding-right: 5px;
 }
 
-.blog-tag-size-1 {	
+.blog-tag-size-1 {
 	font-size: 0.8em;
 }
 
-.blog-tag-size-2 {	
+.blog-tag-size-2 {
 	font-size: 0.85em;
 }
 
-.blog-tag-size-3 {	
+.blog-tag-size-3 {
 	font-size: 0.9em;
 }
 
-.blog-tag-size-4 {	
+.blog-tag-size-4 {
 	font-size: 0.95em;
 }
 
-.blog-tag-size-5 {	
+.blog-tag-size-5 {
 	font-size: 1em;
 }
 
-.blog-tag-size-6 {	
+.blog-tag-size-6 {
 	font-size: 1.05em;
 }
 
-.blog-tag-size-7 {	
+.blog-tag-size-7 {
 	font-size: 1.1em;
 }
 
-.blog-tag-size-8 {	
+.blog-tag-size-8 {
 	font-size: 1.15em;
 }
 
-.blog-tag-size-9 {	
+.blog-tag-size-9 {
 	font-size: 1.2em;
 }
 
-.blog-tag-size-10 {	
+.blog-tag-size-10 {
 	font-size: 1.25em;
 }
 
-.blog-tag-size-11 {	
+.blog-tag-size-11 {
 	font-size: 1.3em;
 }
 
-.blog-tag-size-12 {	
+.blog-tag-size-12 {
 	font-size: 1.35em;
 }
 
@@ -666,7 +666,7 @@ ul.blog-tag-cloud li {
 	font-size: 1.4em;
 }
 
-.blog-tag-size-14 {	
+.blog-tag-size-14 {
 	font-size: 1.45em;
 }
 
@@ -674,15 +674,15 @@ ul.blog-tag-cloud li {
 	font-size: 1.5em;
 }
 
-.blog-tag-size-16 {	
+.blog-tag-size-16 {
 	font-size: 1.55em;
 }
 
-.blog-tag-size-17 {	
+.blog-tag-size-17 {
 	font-size: 1.6em;
 }
 
-.blog-tag-size-18 {	
+.blog-tag-size-18 {
 	font-size: 1.65em;
 }
 
@@ -690,7 +690,7 @@ ul.blog-tag-cloud li {
 	font-size: 1.7em;
 }
 
-.blog-tag-size-20 {	
+.blog-tag-size-20 {
 	font-size: 1.75em;
 }
 
@@ -938,7 +938,7 @@ p.blog-entry-tags {
 
 .photo-caption {
 	margin: 0;
-	font: italic normal 1em Georgia, "Times New Roman", Times, serif;
+	font: italic normal 1em "Prata", serif;
 }
 
 .exif-data {
@@ -1136,7 +1136,7 @@ p.exif-user-comment {
 
 .movie-description {
 }
-	
+
 /* Quicktime Album Movie Thumbnail view */
 .movie-page-title {
 	font-weight: bold;
@@ -1166,7 +1166,7 @@ p.exif-user-comment {
 
 .movie-thumbnail-caption {
 }
-	
+
 /* Single Page (Movie View) */
 .movie-background {
 	margin: 10px;
@@ -1189,11 +1189,11 @@ p.exif-user-comment {
 /* @group Contact Form */
 
 .message-text {
-	
+
 }
 
 .required-text {
-	
+
 }
 
 .form-input-field {
