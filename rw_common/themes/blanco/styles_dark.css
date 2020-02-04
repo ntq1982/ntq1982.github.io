@@ -2,12 +2,13 @@
 /* A RapidWeaver theme by Will Woodgate */
 /* Visit www.themeflood.com for details */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Lato&display=swap');
+
 body {
 	margin: 0px;
 	padding: 0px;
 	font-size: 100%;
 	background: #000000;
-/*	background: #ffffff; */
 }
 
 #mainContainer {
@@ -38,11 +39,9 @@ b, strong {
 
 a {
 	text-decoration: none;
-/*	text-decoration: underline; */
 	font-weight: normal;
 	font-style: normal;
 	color: #ffffff;
-/*	color: #999999; */
 }
 
 a:hover {
@@ -50,7 +49,6 @@ a:hover {
 	font-weight: normal;
 	font-style: normal;
 	color: #6699cc;
-/*	color: #000; */
 }
 
 blockquote, .standout {
@@ -227,7 +225,7 @@ ol.lower-roman {
 	background: transparent;
 	margin: 0;
 	padding: 0;
-	font: 1.50em/1.00em Georgia, "Times New Roman", Times, serif;
+	font: 1.50em/1.00em "Montserrat", sans-serif;
 	color: #6699cc;
 }
 
@@ -253,7 +251,7 @@ ol.lower-roman {
 	font-weight: normal;
 	position: relative;
 	height: auto;
-	font: 1.50em/1.00em Georgia, "Times New Roman", Times, serif;
+	font: 1.50em/1.00em "Montserrat", sans-serif;
 	color: #6699cc;
 }
 
@@ -287,7 +285,7 @@ ol.lower-roman {
 	padding: 3px 15px;
 	margin: 0;
 	border-left: 1px solid #999999;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 }
 
@@ -318,7 +316,6 @@ ol.lower-roman {
 	text-decoration: none;
 	font-weight: normal;
 	color: #6699cc;
-/*	color: #1b5191; */
 }
 
 #headerContainer ul li .current,
@@ -343,7 +340,7 @@ ol.lower-roman {
 	padding: 0;
 	margin: 0;
 	color: #999;
-	font: 85%/1.50em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 85%/1.50em "Lato", sans-serif;
 }
 
 /* @end */
@@ -357,7 +354,7 @@ ol.lower-roman {
 	margin: 0;
 	padding: 0;
 	color: #999;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: "Lato", sans-serif;
 	line-height: 1.25em;
 }
 
@@ -392,7 +389,7 @@ ol.lower-roman {
 	margin: 0 0 20px;
 	background-color: transparent;
 	color: #999;
-	font: 80%/1.25em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 80%/1.25em "Lato", sans-serif;
 }
 
 #footer a {
@@ -405,12 +402,10 @@ ol.lower-roman {
 
 #blankocred a {
 	color: #080808;
-/*	color: #f8f8f8; */
 }
 
 #blankocred a:hover {
 	color: #2b2b2b;
-/*	color: #d5d5d5; */
 	text-decoration: none;
 }
 
@@ -425,7 +420,7 @@ ol.lower-roman {
 	width: 100%;
 	margin: 0;
 	padding: 0 0 20px;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 }
 
@@ -469,7 +464,6 @@ ol.lower-roman {
 	text-decoration: none;
 	font-style: normal;
 	color: #6699cc;
-/*	color: #1b5191; */
 }
 
 #verticalNavigation a:active {
@@ -488,7 +482,7 @@ ol.lower-roman {
 	display: none;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 }
 
@@ -500,7 +494,7 @@ ol.lower-roman {
 	font-style: normal;
 	padding: 5px 0;
 	margin: 0 0 2px;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 }
 
@@ -510,7 +504,7 @@ ol.lower-roman {
 	display: block;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 	padding: 5px 15px;
 }
@@ -521,7 +515,7 @@ ol.lower-roman {
 	display: block;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 	padding: 5px 30px;
 }
@@ -532,7 +526,7 @@ ol.lower-roman {
 	display: block;
 	background-image: none;
 	font-style: normal;
-	font: 95%/1.00em Palatino, "Times New Roman", Times, serif;
+	font: 95%/1.00em "Oswald", sans-serif;
 	color: #999;
 	padding: 0 45px;
 }
@@ -551,13 +545,13 @@ ol.lower-roman {
 	text-align: left;
 	padding-bottom: 20px;
 	color: #999;
-	font: 85%/1.50em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 85%/1.50em "Lato", sans-serif;
 }
 
 #sidebarContainer .sideHeader {
 	text-align: left;
 	color: #999;
-	font: bold 90%/1.50em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: bold 90%/1.50em "Lato", sans-serif;
 	text-decoration: none;
 }
 
@@ -936,7 +930,7 @@ p.blog-entry-tags {
 
 .photo-caption {
 	margin: 0;
-	font: italic normal 1em Georgia, "Times New Roman", Times, serif;
+	font: italic normal 1em "Oswald", sans-serif;
 }
 
 .exif-data {
