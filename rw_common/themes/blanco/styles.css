@@ -238,7 +238,7 @@ ol.lower-roman {
 	display: block;
 	position: relative;
 	padding-top: 20px;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #333;
 }
 
 #subHeading h2 {
@@ -284,9 +284,9 @@ ol.lower-roman {
 	float: left;
 	padding: 3px 15px;
 	margin: 0;
-	border-left: 1px solid #999999;
+	border-left: 1px solid #333;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: #666;
 }
 
 #headerContainer li:first-child a {
@@ -339,7 +339,7 @@ ol.lower-roman {
 #contentContainer #content {
 	padding: 0;
 	margin: 0;
-	color: #999;
+	color: #666;
 	font: 85%/1.50em "Lato", sans-serif;
 }
 
@@ -353,7 +353,7 @@ ol.lower-roman {
 	display: block;
 	margin: 0;
 	padding: 0;
-	color: #999;
+	color: #666;
 	font-family: "Lato", sans-serif;
 	line-height: 1.25em;
 }
@@ -385,10 +385,10 @@ ol.lower-roman {
 #footer {
 	text-align: left;
 	padding-top: 20px;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #333;
 	margin: 0 0 20px;
 	background-color: transparent;
-	color: #999;
+	color: #666;
 	font: 80%/1.25em "Lato", sans-serif;
 }
 
@@ -421,7 +421,7 @@ ol.lower-roman {
 	margin: 0;
 	padding: 0 0 20px;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: #666;
 }
 
 #verticalNavigation .current:hover,
@@ -483,7 +483,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: #666;
 }
 
 /* Child - Level 1 */
@@ -495,7 +495,7 @@ ol.lower-roman {
 	padding: 5px 0;
 	margin: 0 0 2px;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: #666;
 }
 
 /* Child - Level 2 */
@@ -505,7 +505,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: #666;
 	padding: 5px 15px;
 }
 
@@ -516,7 +516,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: #666;
 	padding: 5px 30px;
 }
 
@@ -527,7 +527,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: #666;
 	padding: 0 45px;
 }
 
@@ -544,13 +544,13 @@ ol.lower-roman {
 #sidebarContainer #sidebar {
 	text-align: left;
 	padding-bottom: 20px;
-	color: #999;
+	color: #666;
 	font: 85%/1.50em "Lato", sans-serif;
 }
 
 #sidebarContainer .sideHeader {
 	text-align: left;
-	color: #999;
+	color: #666;
 	font: bold 90%/1.50em "Lato", sans-serif;
 	text-decoration: none;
 }
