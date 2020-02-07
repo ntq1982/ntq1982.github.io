@@ -23,7 +23,7 @@
 <link rel="stylesheet" type="text/css" href="/effects/fancybox/jquery.fancybox.css" media="screen" />
 <script type="text/javascript" src="/effects/fancybox/jquery.js"></script>
 <script type="text/javascript" src="/effects/fancybox/jquery.fancybox.js"></script>
-<script type="text/javascript">$(document).ready(function(){$('.fancybox').fancybox({padding:5,openEffect:'elastic',closeEffect:'elastic',nextEffect:'elastic',prevEffect:'elastic',helpers:{title:{type:'over'}},beforeShow:function(){this.title='Photo '+(this.index+1)+'/'+this.group.length+': '+(this.title);$.fancybox.wrap.bind("contextmenu",function(e){return false;});},afterShow:function(){$(".fancybox-title").wrapInner('<div />').show();$(".fancybox-wrap").hover(function(){$(".fancybox-title").show();},function(){$(".fancybox-title").hide();});}});});</script>
+<script type="text/javascript">$(document).ready(function(){$('.fancybox').fancybox({padding:0,openEffect:'elastic',closeEffect:'elastic',nextEffect:'elastic',prevEffect:'elastic',helpers:{title:{type:'over'}},beforeShow:function(){this.title='Photo '+(this.index+1)+'/'+this.group.length+': '+(this.title);$.fancybox.wrap.bind("contextmenu",function(e){return false;});},afterShow:function(){$(".fancybox-title").wrapInner('<div />').show();$(".fancybox-wrap").hover(function(){$(".fancybox-title").show();},function(){$(".fancybox-title").hide();});}});});</script>
 <!--End of FancyBox-->
 
 <!--Start of MathJax-->
