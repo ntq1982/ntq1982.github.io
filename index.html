@@ -19,18 +19,18 @@
 		<script type="text/javascript" src="/rw_common/themes/blanco/javascript.js"></script>
 		
 		
-        <!--Start of FancyBox-->
-<link rel="stylesheet" type="text/css" href="/effects/fancybox/jquery.fancybox.css" media="screen" />
-<script type="text/javascript" src="/effects/fancybox/jquery.js"></script>
-<script type="text/javascript" src="/effects/fancybox/jquery.fancybox.js"></script>
-<script type="text/javascript">$(document).ready(function(){$('.fancybox').fancybox({padding:0,openEffect:'elastic',closeEffect:'elastic',nextEffect:'elastic',prevEffect:'elastic',helpers:{title:{type:'over'}},beforeShow:function(){this.title='Photo '+(this.index+1)+'/'+this.group.length+': '+(this.title);$.fancybox.wrap.bind("contextmenu",function(e){return false;});},afterShow:function(){$(".fancybox-title").wrapInner('<div />').show();$(".fancybox-wrap").hover(function(){$(".fancybox-title").show();},function(){$(".fancybox-title").hide();});}});});</script>
-<!--End of FancyBox-->
-
-<!--Start of MathJax-->
+        <!--Start of MathJax-->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']]},svg:{fontCache:'global'}};</script>
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 <!--End of MathJax-->
+
+<!--Start of FancyBox-->
+<link rel="stylesheet" type="text/css" href="/effects/fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="/effects/fancybox/jquery.js"></script>
+<script type="text/javascript" src="/effects/fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript">$(document).ready(function(){$('.fancybox').fancybox({padding:5,openEffect:'elastic',closeEffect:'elastic',nextEffect:'elastic',prevEffect:'elastic',helpers:{title:{type:'over'}},beforeShow:function(){this.title='Photo '+(this.index+1)+'/'+this.group.length+': '+(this.title);$.fancybox.wrap.bind("contextmenu",function(e){return false;});},afterShow:function(){$(".fancybox-title").wrapInner('<div />').show();$(".fancybox-wrap").hover(function(){$(".fancybox-title").show();},function(){$(".fancybox-title").hide();});},helpers:{title:{type:'over'}}});});</script>
+<!--End of FancyBox-->
 
 	</head>
 	<body>
