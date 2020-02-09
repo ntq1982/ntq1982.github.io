@@ -36,8 +36,10 @@
 
 <!--Start of FancyBox-->
 <link rel="stylesheet" type="text/css" href="/effects/fancybox/jquery.fancybox.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="/effects/fancybox/jquery.fancybox-thumbs.css" media="screen"/>
 <script type="text/javascript" src="/effects/fancybox/jquery.js"></script>
 <script type="text/javascript" src="/effects/fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="/effects/fancybox/jquery.fancybox-thumbs.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
     	$(".fancybox").fancybox({
@@ -62,8 +64,19 @@
     			$("body").css({'overflow-y':'visible'});
     		},
     		helpers:{
-    			title:{type:'over'},
-    			overlay:{locked:true}
+    			title:{
+				type:'over'
+			},
+    			overlay:{
+				locked:true
+			},
+			thumbs:{
+				width:40,
+				height:40,
+				source:function(current){
+					return $(current.element).data('thumbnail');
+				}
+			}
     		}
     	});
     });
@@ -104,8 +117,8 @@
 <!-- <br /> -->
 <strong>My Photos:</strong>
 <br />
-<a href="/resources/images/photo24.jpg" class="fancybox" rel="myphotos" title="APS March Meeting 2018 (Los Angeles, California, USA, 2018)"><img src="https://ntq1982.github.io/resources/images/thumbnail.jpg" alt="Go to my photos" title="Click here to view the gallery" width="180" border="0"/></a>
-<a href="/resources/images/photo23.jpg" class="fancybox" rel="myphotos" title="The 161st Annual Fall Meeting of The Japan Institute of Metals and Materials (Hokkaido, Japan, 2017)"></a>
+<a href="/resources/images/photo24.jpg" class="fancybox" rel="myphotos" data-thumbnail="/resources/images/photo24_small.jpg" title="APS March Meeting 2018 (Los Angeles, California, USA, 2018)"><img src="https://ntq1982.github.io/resources/images/thumbnail.jpg" alt="Go to my photos" title="Click here to view the gallery" width="180" border="0"/></a>
+<a href="/resources/images/photo23.jpg" class="fancybox" rel="myphotos" data-thumbnail="/resources/images/photo23_small.jpg" title="The 161st Annual Fall Meeting of The Japan Institute of Metals and Materials (Hokkaido, Japan, 2017)"></a>
 <a href="/resources/images/photo22.jpg" class="fancybox" rel="myphotos" title="Massachusetts Institute of Technology (Boston, Massachusetts, USA, 2015)"></a>
 <a href="/resources/images/photo21.jpg" class="fancybox" rel="myphotos" title="The 9th International Conference on Computational Physics (Singapore, 2015)"></a>
 <a href="/resources/images/photo20.jpg" class="fancybox" rel="myphotos" title="The 54th Annual Symposium of the Vacuum Society of Japan (Tsukuba, Japan, 2013) - with Dr. Escano"></a>
