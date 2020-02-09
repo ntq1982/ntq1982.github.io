@@ -53,9 +53,3 @@
 	padding: 0;
 	max-width: none;
 }
-
-/* added Rules: */
-
-#fancybox-thumbs {
-	width: 800px !important;
-}
