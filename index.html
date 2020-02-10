@@ -48,6 +48,14 @@
             closeEffect:'elastic',
             nextEffect:'elastic',
             prevEffect:'elastic',
+            afterLoad:function(){
+                $(".fancybox-outer").on('swipeleft',function(){
+                    $.fancybox.next();
+                });
+                $(".fancybox-outer").on('swiperight',function(){
+                    $.fancybox.prev();
+                });
+            },
             beforeShow:function(){
                 $("body").css({'overflow-y':'hidden'});
                 this.title='Photo '+(this.index+1)+'/'+this.group.length+': '+(this.title);
