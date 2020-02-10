@@ -40,6 +40,8 @@
 <script type="text/javascript" src="/effects/fancybox/jquery.js"></script>
 <script type="text/javascript" src="/effects/fancybox/jquery.fancybox.js"></script>
 <script type="text/javascript" src="/effects/fancybox/jquery.fancybox-thumbs.js"></script>
+<script type="text/javascript" src="/effects/fancybox/jquery.event.move.js"></script>
+<script type="text/javascript" src="/effects/fancybox/jquery.event.swipe.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $(".fancybox").fancybox({
@@ -48,6 +50,14 @@
             closeEffect:'elastic',
             nextEffect:'elastic',
             prevEffect:'elastic',
+            afterLoad:function(){
+                $(".fancybox-outer").on('swipeleft',function(){
+                    $.fancybox.next();
+                });
+                $(".fancybox-outer").on('swiperight',function(){
+                    $.fancybox.prev();
+                });
+            },
             beforeShow:function(){
                 $("body").css({'overflow-y':'hidden'});
                 this.title='Photo '+(this.index+1)+'/'+this.group.length+': '+(this.title);
