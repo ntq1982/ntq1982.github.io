@@ -57,6 +57,9 @@
                 $(".fancybox-outer").on('swiperight',function(){
                     $.fancybox.prev();
                 });
+                $(".fancybox-outer").on('swipedown',function(){
+                    $.fancybox.close();
+                });
             },
             beforeShow:function(){
                 $("body").css({'overflow-y':'hidden'});
