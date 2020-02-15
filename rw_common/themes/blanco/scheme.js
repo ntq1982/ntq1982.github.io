@@ -53,7 +53,7 @@ function setColorScheme() {
 		console.log('Dark mode during night time is scheduled.');
 		now = new Date();
 		hour = now.getHours();
-		if (hour < 6 || hour >= 18) {
+		if (hour < 6 || hour >= 12) {
 			activateDarkMode();
 		}
 	}
