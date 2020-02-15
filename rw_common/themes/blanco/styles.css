@@ -5,14 +5,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Lato&display=swap');
 
 :root {
-    --background-color: #ffffff;
+    --background-color: #000000;
     --heading-color: #6699cc;
-    --text-color: #666666;
-    --link-color: #000000;
+    --text-color: #999999;
+    --link-color: #ffffff;
     --link-hover-color: #6699cc;
-    --border-color: #333333;
-    --other-color: #f7f7f7;
-    --other-hover-color: #d4d4d4;
+    --border-color: #cccccc;
+    --other-color: #080808;
+    --other-hover-color: #2b2b2b;
 }
 
 body {
