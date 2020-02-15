@@ -15,6 +15,17 @@
     --other-hover-color: #2b2b2b;
 }
 
+@media screen and (prefers-color-scheme: light) {
+    --background-color: #ffffff;
+    --heading-color: #6699cc;
+    --text-color: #666666;
+    --link-color: #000000;
+    --link-hover-color: #6699cc;
+    --border-color: #333333;
+    --other-color: #f7f7f7;
+    --other-hover-color: #d4d4d4;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
