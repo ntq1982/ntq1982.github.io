@@ -5,27 +5,31 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Lato&display=swap');
 
 :root {
-    --background-color: #000000;
-    --heading-color: #6699cc;
-    --text-color: #999999;
-    --link-color: #ffffff;
-    --link-hover-color: #6699cc;
-    --border-color: #cccccc;
-    --other-color: #080808;
-    --other-hover-color: #2b2b2b;
+	--background-color: #000000;
+	--heading-color: #6699cc;
+	--menu-color: #999999;
+	--menu-hover-color: #6699cc;
+	--text-color: #999999;
+	--link-color: #ffffff;
+	--link-hover-color: #6699cc;
+	--border-color: #cccccc;
+	--other-color: #080808;
+	--other-hover-color: #2b2b2b;
 }
 
 @media screen and (prefers-color-scheme: light) {
-    :root {
-        --background-color: #ffffff;
-        --heading-color: #6699cc;
-        --text-color: #666666;
-        --link-color: #000000;
-        --link-hover-color: #6699cc;
-        --border-color: #333333;
-        --other-color: #f7f7f7;
-        --other-hover-color: #d4d4d4;
-    }		
+	:root {
+		--background-color: #ffffff;
+		--heading-color: #6699cc;
+		--menu-color: #666666;
+		--menu-hover-color: #6699cc;
+		--text-color: #666666;
+		--link-color: #000000;
+		--link-hover-color: #6699cc;
+		--border-color: #333333;
+		--other-color: #f7f7f7;
+		--other-hover-color: #d4d4d4;
+	}
 }
 
 body {
@@ -310,7 +314,7 @@ ol.lower-roman {
 	margin: 0;
 	border-left: 1px solid var(--border-color);
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: var(--text-color);
+	color: var(--menu-color);
 }
 
 #headerContainer li:first-child a {
@@ -339,7 +343,7 @@ ol.lower-roman {
 #headerContainer ul li a:hover {
 	text-decoration: none;
 	font-weight: normal;
-	color: var(--link-hover-color);
+	color: var(--menu-hover-color);
 }
 
 #headerContainer ul li .current,
@@ -445,7 +449,7 @@ ol.lower-roman {
 	margin: 0;
 	padding: 0 0 20px;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: var(--text-color);
+	color: var(--menu-color);
 }
 
 #verticalNavigation .current:hover,
@@ -487,7 +491,7 @@ ol.lower-roman {
 #verticalNavigation a:hover {
 	text-decoration: none;
 	font-style: normal;
-	color: var(--link-hover-color);
+	color: var(--menu-hover-color);
 }
 
 #verticalNavigation a:active {
@@ -507,7 +511,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: var(--text-color);
+	color: var(--menu-color);
 }
 
 /* Child - Level 1 */
@@ -519,7 +523,7 @@ ol.lower-roman {
 	padding: 5px 0;
 	margin: 0 0 2px;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: var(--text-color);
+	color: var(--menu-color);
 }
 
 /* Child - Level 2 */
@@ -529,7 +533,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: var(--text-color);
+	color: var(--menu-color);
 	padding: 5px 15px;
 }
 
@@ -540,7 +544,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: var(--text-color);
+	color: var(--menu-color);
 	padding: 5px 30px;
 }
 
@@ -551,7 +555,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: var(--text-color);
+	color: var(--menu-color);
 	padding: 0 45px;
 }
 
