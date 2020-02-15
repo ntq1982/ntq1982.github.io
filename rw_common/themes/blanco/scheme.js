@@ -56,5 +56,8 @@ function setColorScheme() {
 		if (hour < 6 || hour >= 18) {
 			activateDarkMode();
 		}
+		else {
+			activateLightMode();
+		}
 	}
 }
