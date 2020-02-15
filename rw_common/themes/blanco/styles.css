@@ -17,15 +17,24 @@
 	--other-hover-color: #d4d4d4;
 }
 
+@media screen and (prefers-color-scheme: light) {
+	:root {
+		--background-color: #ffffff;
+		--menu-color: #666666;
+		--text-color: #666666;
+		--link-color: #000000;
+		--border-color: #333333;
+		--other-color: #f7f7f7;
+		--other-hover-color: #d4d4d4;
+	}
+}
+
 @media screen and (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #000000;
-		--heading-color: #6699cc;
 		--menu-color: #999999;
-		--menu-hover-color: #6699cc;
 		--text-color: #999999;
 		--link-color: #ffffff;
-		--link-hover-color: #6699cc;
 		--border-color: #cccccc;
 		--other-color: #080808;
 		--other-hover-color: #2b2b2b;
