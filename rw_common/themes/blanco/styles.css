@@ -4,11 +4,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Lato&display=swap');
 
+:root {
+    --background-color: #ffffff;
+    --heading-color: #6699cc;
+    --text-color: #666666;
+    --link-color: #000000;
+    --link-hover-color: #6699cc;
+    --border-color: #333333;
+    --other-color: #f7f7f7;
+    --other-hover-color: #d4d4d4;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
 	font-size: 100%;
-	background: #000000;
+	background: var(--background-color);
 }
 
 #mainContainer {
@@ -41,14 +52,14 @@ a {
 	text-decoration: none;
 	font-weight: normal;
 	font-style: normal;
-	color: #ffffff;
+	color: var(--link-color);
 }
 
 a:hover {
 	text-decoration: none;
 	font-weight: normal;
 	font-style: normal;
-	color: #6699cc;
+	color: var(--link-hover-color);
 }
 
 blockquote, .standout {
@@ -226,7 +237,7 @@ ol.lower-roman {
 	margin: 0;
 	padding: 0;
 	font: 1.50em/1.00em "Montserrat", sans-serif;
-	color: #6699cc;
+	color: var(--heading-color);
 }
 
 /* @end */
@@ -238,7 +249,7 @@ ol.lower-roman {
 	display: block;
 	position: relative;
 	padding-top: 20px;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid var(--border-color);
 }
 
 #subHeading h2 {
@@ -252,7 +263,7 @@ ol.lower-roman {
 	position: relative;
 	height: auto;
 	font: 1.50em/1.00em "Montserrat", sans-serif;
-	color: #6699cc;
+	color: var(--heading-color);
 }
 
 /* @end */
@@ -284,9 +295,9 @@ ol.lower-roman {
 	float: left;
 	padding: 3px 15px;
 	margin: 0;
-	border-left: 1px solid #ccc;
+	border-left: 1px solid var(--border-color);
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: var(--text-color);
 }
 
 #headerContainer li:first-child a {
@@ -315,7 +326,7 @@ ol.lower-roman {
 #headerContainer ul li a:hover {
 	text-decoration: none;
 	font-weight: normal;
-	color: #6699cc;
+	color: var(--link-hover-color);
 }
 
 #headerContainer ul li .current,
@@ -339,7 +350,7 @@ ol.lower-roman {
 #contentContainer #content {
 	padding: 0;
 	margin: 0;
-	color: #999;
+	color: var(--text-color);
 	font: 85%/1.50em "Lato", sans-serif;
 }
 
@@ -353,7 +364,7 @@ ol.lower-roman {
 	display: block;
 	margin: 0;
 	padding: 0;
-	color: #999;
+	color: var(--text-color);
 	font-family: "Lato", sans-serif;
 	line-height: 1.25em;
 }
@@ -385,10 +396,10 @@ ol.lower-roman {
 #footer {
 	text-align: left;
 	padding-top: 20px;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid var(--border-color);
 	margin: 0 0 20px;
 	background-color: transparent;
-	color: #999;
+	color: var(--text-color);
 	font: 80%/1.25em "Lato", sans-serif;
 }
 
@@ -401,11 +412,11 @@ ol.lower-roman {
 }
 
 #blankocred a {
-	color: #080808;
+	color: var(--other-color);
 }
 
 #blankocred a:hover {
-	color: #2b2b2b;
+	color: var(--other-hover-color);
 	text-decoration: none;
 }
 
@@ -421,7 +432,7 @@ ol.lower-roman {
 	margin: 0;
 	padding: 0 0 20px;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: var(--text-color);
 }
 
 #verticalNavigation .current:hover,
@@ -463,7 +474,7 @@ ol.lower-roman {
 #verticalNavigation a:hover {
 	text-decoration: none;
 	font-style: normal;
-	color: #6699cc;
+	color: var(--link-hover-color);
 }
 
 #verticalNavigation a:active {
@@ -483,7 +494,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: var(--text-color);
 }
 
 /* Child - Level 1 */
@@ -495,7 +506,7 @@ ol.lower-roman {
 	padding: 5px 0;
 	margin: 0 0 2px;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: var(--text-color);
 }
 
 /* Child - Level 2 */
@@ -505,7 +516,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: var(--text-color);
 	padding: 5px 15px;
 }
 
@@ -516,7 +527,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: var(--text-color);
 	padding: 5px 30px;
 }
 
@@ -527,7 +538,7 @@ ol.lower-roman {
 	background-image: none;
 	font-style: normal;
 	font: 95%/1.00em "Oswald", sans-serif;
-	color: #999;
+	color: var(--text-color);
 	padding: 0 45px;
 }
 
@@ -544,13 +555,13 @@ ol.lower-roman {
 #sidebarContainer #sidebar {
 	text-align: left;
 	padding-bottom: 20px;
-	color: #999;
+	color: var(--text-color);
 	font: 85%/1.50em "Lato", sans-serif;
 }
 
 #sidebarContainer .sideHeader {
 	text-align: left;
-	color: #999;
+	color: var(--text-color);
 	font: bold 90%/1.50em "Lato", sans-serif;
 	text-decoration: none;
 }
