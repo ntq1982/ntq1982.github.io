@@ -1,5 +1,6 @@
 2020:
 https://arxiv.org/abs/2001.10191
+https://doi.org/10.1016/j.ssc.2020.xxxxxx
 https://doi.org/10.1016/j.apsusc.2020.145590
 2019:
 https://doi.org/10.2355/isijinternational.ISIJINT-2019-019
