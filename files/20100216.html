@@ -9,7 +9,7 @@
 		<link rel="shortcut icon" href="https://ntq1982.github.io/favicon.ico" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="https://ntq1982.github.io/apple-touch-icon.png" />
 		
-		<title>FORTRAN Tip: Convert a string to other types | Research Profile</title>
+		<title>FORTRAN Tip: Convert a String to Other Types | Research Profile</title>
 		<link rel="stylesheet" type="text/css" media="screen" href="/rw_common/themes/blanco/styles.css"  />
 		<link rel="stylesheet" type="text/css" media="print" href="/rw_common/themes/blanco/stylesheets/print.css"  />
 		<link rel="stylesheet" type="text/css" media="screen" href="/rw_common/themes/blanco/css/sidebar/sidebar_left_200.css" />
@@ -212,21 +212,21 @@
 <br />
 <strong>Last Update:</strong>
 <br />
-30/04/2020
+22/06/2020
 <br />
 <!--End of Version-->
 <!--/sphider_noindex-->
 
 <br />
 <strong>Archives:</strong> <br /><!-- sidebar content you enter in the page inspector -->
-					<div id="blog-archives"><a class="blog-archive-link-enabled" href="archive-2014.html">2014</a><br /><a class="blog-archive-link-enabled" href="archive-2013.html">2013</a><br /><a class="blog-archive-link-enabled" href="archive-2012.html">2012</a><br /><a class="blog-archive-link-enabled" href="archive-2010.html">2010</a><br /></div> <!-- sidebar content such as the blog archive links -->
+					<div id="blog-archives"><a class="blog-archive-link-enabled" href="archive-2020.html">2020</a><br /><a class="blog-archive-link-enabled" href="archive-2014.html">2014</a><br /><a class="blog-archive-link-enabled" href="archive-2013.html">2013</a><br /><a class="blog-archive-link-enabled" href="archive-2012.html">2012</a><br /><a class="blog-archive-link-enabled" href="archive-2010.html">2010</a><br /></div> <!-- sidebar content such as the blog archive links -->
 				</div><!-- End sidebar content -->
 			</div><!-- End sidebar wrapper -->
 				<div id="content"><!-- Start content -->
 						
 	
 	<div class="blog-archive-entries-wrapper">
-		<div id="unique-entry-id-1" class="blog-entry"><h1 class="blog-entry-title">FORTRAN Tip: Convert a string to other types</h1><div class="blog-entry-date">16/02/2010 23:41 </div><div class="blog-entry-body">How to convert a string to other types (and vice versa) in FORTRAN?<br />When I was making the DOSCAR tool, I had to convert some data from integer to string. I found that the easiest way is using a character variable as the file name and read or write the I/O list.<br /><br /><strong>Convert a string to another type</strong><br />  read (character_variable, format) list of variables<br /><strong>Convert to a string from another type</strong><br />  write (character_variable, format) list of variables<br /><br /><strong>Example 1:</strong><br /><span style="font:12px Courier, mono; ">program integer2string<br />integer      :: i<br />character*10 :: str<br />i = 13<br />write(str,'(i0)') i<br />write(*,'(a)') trim(str)<br />write(str,'(i4)') i<br />write(*,'(a)') trim(str)<br />write(str,'(i4.4)') i<br />write(*,'(a)') trim(str)<br />end program integer2string</span><br /><br />Here is the output of program <span style="font:12px Courier, mono; ">integer2string</span>:<br /><span style="font:12px Courier, mono; ">13<br />  13<br />0013</span><br /><br /><strong>Example 2:</strong><br /><span style="font:12px Courier, mono; ">program string2integer<br />integer      :: i<br />character*10 :: str<br />str = '   013   '<br />read(str,*) i <br />write(*,'(i2)') i<br />end program string2integer</span><br /><br />Here is the output of program <span style="font:12px Courier, mono; ">string2integer</span>:<br /><span style="font:12px Courier, mono; ">13</span><br /><br />Hope it helps <img class="blog-image-smiley" src="/rw_common/plugins/blog/smiley_smile.png" width="21" height="21" alt="Happy" border="0" /></div></div>
+		<div id="unique-entry-id-1" class="blog-entry"><h1 class="blog-entry-title">FORTRAN Tip: Convert a String to Other Types</h1><div class="blog-entry-date">16/02/2010 23:41 </div><div class="blog-entry-body">How to convert a string to other types (and vice versa) in FORTRAN?<br />When I was making the DOSCAR tool, I had to convert some data from integer to string. I found that the easiest way is using a character variable as the file name and read or write the I/O list.<br /><br /><strong>Convert a string to another type</strong><br />  read (character_variable, format) list of variables<br /><strong>Convert to a string from another type</strong><br />  write (character_variable, format) list of variables<br /><br /><strong>Example 1:</strong><br /><span style="font:12px Courier, mono; ">program integer2string<br />integer      :: i<br />character*10 :: str<br />i = 13<br />write(str,'(i0)') i<br />write(*,'(a)') trim(str)<br />write(str,'(i4)') i<br />write(*,'(a)') trim(str)<br />write(str,'(i4.4)') i<br />write(*,'(a)') trim(str)<br />end program integer2string</span><br /><br />Here is the output of program <span style="font:12px Courier, mono; ">integer2string</span>:<br /><span style="font:12px Courier, mono; ">13<br />  13<br />0013</span><br /><br /><strong>Example 2:</strong><br /><span style="font:12px Courier, mono; ">program string2integer<br />integer      :: i<br />character*10 :: str<br />str = '   013   '<br />read(str,*) i <br />write(*,'(i2)') i<br />end program string2integer</span><br /><br />Here is the output of program <span style="font:12px Courier, mono; ">string2integer</span>:<br /><span style="font:12px Courier, mono; ">13</span><br /><br />Hope it helps <img class="blog-image-smiley" src="/rw_common/plugins/blog/smiley_smile.png" width="21" height="21" alt="Happy" border="0" /></div></div>
 	</div>
 	
 	 
