@@ -48,13 +48,13 @@
 /* @customize for displaying code */
 pre {
 	box-sizing: border-box;
-	width: 100%;
+	width: 95%;
 	margin: 0px;
 	padding: 10px;
 	line-height: 15px;
 	background: var(--pre-background-color);
 	font-family: "Courier", mono;
-	font-size: 100%;
+	font-size: 85%;
 	overflow: auto;
 	overflow-y: hidden;
 }
