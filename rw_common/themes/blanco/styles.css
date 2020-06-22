@@ -53,8 +53,8 @@ pre {
 	padding: 10px;
 	line-height: 15px;
 	background: var(--pre-background-color);
-	font-family: "Courier", mono;
-	font-size: 100%;
+	font-family: "Menlo", mono;
+	font-size: 80%;
 	overflow: auto;
 	overflow-y: hidden;
 }
