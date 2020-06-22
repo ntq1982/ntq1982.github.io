@@ -54,7 +54,9 @@ pre {
 	line-height: 15px;
 	background: var(--pre-background-color);
 	font-family: "Courier", mono;
-	font-size: 80%;
+	font-size: 100%;
+	overflow: auto;
+	overflow-y: hidden;
 }
 /* @end */
 
