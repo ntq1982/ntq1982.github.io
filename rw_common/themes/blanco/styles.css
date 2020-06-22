@@ -1,11 +1,13 @@
 /* Blanco */
 /* A RapidWeaver theme by Will Woodgate */
 /* Visit www.themeflood.com for details */
+/* Modified by Quang Nguyen */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Lato&display=swap');
 
 :root {
 	--background-color: #ffffff;
+	--pre-background-color: #efefef;
 	--heading-color: #6699cc;
 	--menu-color: #666666;
 	--menu-hover-color: #6699cc;
@@ -20,6 +22,7 @@
 @media screen and (prefers-color-scheme: light) {
 	:root {
 		--background-color: #ffffff;
+		--pre-background-color: #efefef;
 		--menu-color: #666666;
 		--text-color: #666666;
 		--link-color: #000000;
@@ -32,6 +35,7 @@
 @media screen and (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #000000;
+		--pre-background-color: #101010;
 		--menu-color: #999999;
 		--text-color: #999999;
 		--link-color: #ffffff;
@@ -40,6 +44,21 @@
 		--other-hover-color: #2b2b2b;
 	}
 }
+
+/* @customize for displaying code */
+pre {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0px;
+	padding: 10px;
+	line-height: 15px;
+	background: var(--pre-background-color);
+	font-family: "Courier", mono;
+	font-size: 100%;
+	overflow: auto;
+	overflow-y: hidden;
+}
+/* @end */
 
 body {
 	margin: 0px;
