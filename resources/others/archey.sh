@@ -1,7 +1,7 @@
 #!/bin/bash
 # A tiny program to print Apple logo and System Information
 # Author: Jeffrey Hann (https://obihann.github.io/archey-osx/)
-# Modified by Quang Nguyen on Jul 16, 2020
+# Modified by Quang Nguyen on Jul 27, 2020
 
 # Print program help
 if [[ $1 == "-h" ]]; then
