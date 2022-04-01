@@ -1,18 +1,24 @@
+2022:
+https://doi.org/10.2320/matertrans.mt-m2021240
+https://doi.org/10.1103/PhysRevB.105.075205
+https://doi.org/10.1002/admi.202101752
 2021:
-https://doi.org/10.1039/D0CP06624A
-
+https://doi.org/10.35848/1882-0786/ac2a57
+https://doi.org/10.2320/matertrans.mt-m2021054
+https://doi.org/10.1039/d1cp90064a (Correction)
+https://doi.org/10.1039/d0cp06624a
 2020:
 https://doi.org/10.1016/j.ssc.2020.114115 (https://arxiv.org/abs/2001.10191)
 https://doi.org/10.1016/j.ssc.2020.113918
 https://doi.org/10.1016/j.apsusc.2020.145590
 2019:
-https://doi.org/10.2355/isijinternational.ISIJINT-2019-019
+https://doi.org/10.2355/isijinternational.isijint-2019-019
 https://doi.org/10.1299/jsmecmd.2019.32.250
 https://doi.org/10.1088/2053-1591/ab0640
 2018:
 https://doi.org/10.1299/jsmecmd.2018.31.237
 https://doi.org/10.1016/j.commatsci.2018.04.047
-https://doi.org/10.2320/matertrans.M2018014
+https://doi.org/10.2320/matertrans.m2018014
 2017:
 https://doi.org/10.1016/j.apsusc.2017.09.086
 2016:
@@ -31,14 +37,14 @@ http://dx.doi.org/10.1016/j.cap.2012.05.003
 http://www.nsti.org/procs/Nanotech2012v2/9/W5.114
 2011:
 http://dx.doi.org/10.1016/j.cplett.2011.08.087
-http://dx.doi.org/10.1143/JJAP.50.045101
+http://dx.doi.org/10.1143/jjap.50.045101
 2010:
 http://dx.doi.org/10.1021/jp1035426
 2009:
 http://dx.doi.org/10.1088/0953-8984/21/49/492201
 http://dx.doi.org/10.1016/j.commatsci.2009.06.027
-http://dx.doi.org/10.1143/JPSJ.78.014706
+http://dx.doi.org/10.1143/jpsj.78.014706
 2008:
 http://dx.doi.org/10.1016/j.susc.2008.09.019
-http://dx.doi.org/10.1103/PhysRevB.77.195307
+http://dx.doi.org/10.1103/physrevb.77.195307
 http://dx.doi.org/10.1002/sia.2841
