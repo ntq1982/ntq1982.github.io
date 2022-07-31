@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>This is the setting required for connecting to the internet in the new course of OCN Mobile ONE.</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>APNs</key>
+			<array>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>AllowedProtocolMaskInRoaming</key>
+					<integer>1</integer>
+					<key>AuthenticationType</key>
+					<string>CHAP</string>
+					<key>DefaultProtocolMask</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>ocn.ne.jp</string>
+					<key>Password</key>
+					<string>mobile</string>
+					<key>Username</key>
+					<string>mobileid@ocn</string>
+				</dict>
+			</array>
+			<key>AttachAPN</key>
+			<dict>
+				<key>AllowedProtocolMask</key>
+				<integer>1</integer>
+				<key>AuthenticationType</key>
+				<string>CHAP</string>
+				<key>Name</key>
+				<string>ocn.ne.jp</string>
+				<key>Password</key>
+				<string>mobile</string>
+				<key>Username</key>
+				<string>mobileid@ocn</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configure cellular data settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Mobile communication</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.cellular.84BC3BD8-B584-4E60-AAA1-3CCF95285A17</string>
+			<key>PayloadType</key>
+			<string>com.apple.cellular</string>
+			<key>PayloadUUID</key>
+			<string>84BC3BD8-B584-4E60-AAA1-3CCF95285A17</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Mobile data communication settings for the new course</string>
+	<key>PayloadDisplayName</key>
+	<string>Connection settings for OCN Mobile ONE new course</string>
+	<key>PayloadIdentifier</key>
+	<string>cellular.ocn.profile</string>
+	<key>PayloadOrganization</key>
+	<string>NTT Communications Corporation</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B3EFABA0-9ED7-4194-A07B-A0D58ADD8AAA</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
