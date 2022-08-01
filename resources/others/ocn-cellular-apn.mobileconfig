@@ -59,7 +59,7 @@
 	<key>PayloadDescription</key>
 	<string>Mobile data communication settings for the new course</string>
 	<key>PayloadDisplayName</key>
-	<string>Connection settings for OCN Mobile ONE new course</string>
+	<string>OCN Mobile ONE (new course)</string>
 	<key>PayloadIdentifier</key>
 	<string>cellular.ocn.profile</string>
 	<key>PayloadOrganization</key>
