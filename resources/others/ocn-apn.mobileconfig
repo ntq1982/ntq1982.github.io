@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>This is the setting required for connecting to the internet with OCN Mobile ONE.</string>
+	</dict>
+	<key>HasRemovalPasscode</key>
+	<false/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>APNs</key>
+			<array>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>AllowedProtocolMaskInRoaming</key>
+					<integer>1</integer>
+					<key>AuthenticationType</key>
+					<string>CHAP</string>
+					<key>Name</key>
+					<string>lte-d.ocn.ne.jp</string>
+					<key>Password</key>
+					<string>mobile</string>
+					<key>Username</key>
+					<string>mobileid@ocn</string>
+				</dict>
+			</array>
+			<key>AttachAPN</key>
+			<dict>
+				<key>AllowedProtocolMask</key>
+				<integer>1</integer>
+				<key>AuthenticationType</key>
+				<string>CHAP</string>
+				<key>Name</key>
+				<string>lte-d.ocn.ne.jp</string>
+				<key>Password</key>
+				<string>mobile</string>
+				<key>Username</key>
+				<string>mobileid@ocn</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configure cellular data settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Mobile communication</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.cellular.42C15B0D-D081-411E-80F9-82C15C2752B3</string>
+			<key>PayloadType</key>
+			<string>com.apple.cellular</string>
+			<key>PayloadUUID</key>
+			<string>42C15B0D-D081-411E-80F9-82C15C2752B3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Mobile data communication settings</string>
+	<key>PayloadDisplayName</key>
+	<string>OCN Mobile ONE</string>
+	<key>PayloadIdentifier</key>
+	<string>cellular.ocn.profile</string>
+	<key>PayloadOrganization</key>
+	<string>NTT Communications Corporation</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>DC632060-3F0B-4B36-8E9D-F4032E9CDB9E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
